@@ -1,0 +1,45 @@
+body {
+  background-color: grey;
+}
+.btn {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  border-style: double;
+  border-width: 20px;
+  border-color: black;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.btnArea {
+  display: grid;
+  grid-template-areas: "myArea myArea" "myArea myArea";
+  justify-content: center;
+  margin-top: 22vh;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.error {
+  background-color: red;
+  box-shadow: 0 0 20px red;
+}
